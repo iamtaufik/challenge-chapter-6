@@ -20,7 +20,7 @@ API ini digunakan untuk membuat postingan baru dengan content type `multipart/fo
 ### Endpoint
 
 ```http
-  POST /api/v1/posts
+POST /api/v1/posts
 ```
 
 ### Request Body
@@ -38,7 +38,7 @@ API ini digunakan untuk melihat semua postingan yang sudah dibuat.
 ### Endpoint
 
 ```http
-  GET /api/v1/posts
+GET /api/v1/posts
 ```
 
 ### Response Body
@@ -67,7 +67,7 @@ API ini digunakan untuk melihat detail dari sebuah postingan.
 ### Endpoint
 
 ```http
-  GET /api/v1/posts/:postId
+GET /api/v1/posts/:postId
 ```
 
 ### Request Parameters
